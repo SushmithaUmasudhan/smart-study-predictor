@@ -18,7 +18,7 @@ This project uses Linear Regression to model the relationship between study hour
 - Jupyter Notebook  
 ## Files in this Repository
 - `Smart_Study_Performance_Predictor.ipynb` → Main project notebook  
-- `data.csv` → Dataset used  
+- `Score.csv` → Dataset used  
 - `README.md` → Project documentation  
 ## How to Run
 1. Download or clone this repository  
@@ -39,8 +39,6 @@ Dataset Preview:
 3    8.5      75
 4    3.5      30
 Enter study hours:  3
-Predicted Marks: 31.81
-
 Predicted Marks: 31.81
 Performance: Needs Improvement
 Suggestion: Increase study time by at least 2 hours.
