@@ -3,6 +3,7 @@ This is a simple Machine Learning project built using Linear Regression to predi
 ## Project Overview
 This project analyzes the relationship between study hours and marks using a dataset stored in a CSV file.  
 It also provides performance categories and basic study suggestions.
+Dataset is loaded from an external CSV file instead of hardcoded values.
 ## Features
 - Predicts marks based on study hours  
 - Categorizes performance:
