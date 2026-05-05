@@ -1,9 +1,7 @@
-# Smart Study Performance Predictor
+# Smart Study Performance Predictor using Machine Learning
 This is a simple Machine Learning project built using Linear Regression to predict student marks based on study hours.
 ## Project Overview
-This project analyzes the relationship between study hours and marks using a dataset stored in a CSV file.  
-It also provides performance categories and basic study suggestions.
-Dataset is loaded from an external CSV file instead of hardcoded values.
+This project uses Linear Regression to model the relationship between study hours and student performance.
 ## Features
 - Predicts marks based on study hours  
 - Categorizes performance:
@@ -31,7 +29,24 @@ Dataset is loaded from an external CSV file instead of hardcoded values.
 - Predicted Marks based on study hours  
 - Performance category (Good / Average / Needs Improvement)  
 - Study suggestions  
-- Graph showing regression line  
+- Graph showing regression line
+## Output visualization
+Dataset Preview:
+   Hours  Scores
+0    2.5      21
+1    5.1      47
+2    3.2      27
+3    8.5      75
+4    3.5      30
+Enter study hours:  3
+Predicted Marks: 31.81
+
+Predicted Marks: 31.81
+Performance: Needs Improvement
+Suggestion: Increase study time by at least 2 hours.
+<img width="1102" height="806" alt="Screenshot (11)" src="https://github.com/user-attachments/assets/cc1b23db-52b0-4bbe-adcf-fac3e76b0f19" />
+
+
 ##  Future Improvements
 
 - Convert into a web app using Streamlit  
